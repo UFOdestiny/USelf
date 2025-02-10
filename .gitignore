@@ -1,0 +1,8 @@
+.git
+.idea
+__pycache__
+data
+result
+output_*
+src/uqgnn
+src/stgc*
