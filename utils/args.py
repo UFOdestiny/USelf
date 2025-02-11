@@ -35,21 +35,23 @@ def get_public_config():
     return parser
 
 def get_log_path(args):
-    if platform.system().lower() == 'linux':
-        log_dir = '/home/dy23a.fsu/st/result/{}/{}/'.format(args.model_name, args.dataset)
-    else:
-        log_dir = r'D:/OneDrive - Florida State University/mycode/st/result/{}/{}/'.format(
-            args.model_name, args.dataset)
+    # if platform.system().lower() == 'linux':
+    #     log_dir = '/home/dy23a.fsu/st/result/{}/{}/'.format(args.model_name, args.dataset)
+    # else:
+    #     log_dir = r'D:/OneDrive - Florida State University/mycode/st/result/{}/{}/'.format(
+    #         args.model_name, args.dataset)
 
+    log_dir=""
     return log_dir
 
 def get_data_path():
-    if platform.system().lower() == 'linux':
-        path = '/blue/gtyson.fsu/dy23a.fsu/datasets/'
-        # path = '/home/dy23a.fsu/neu24/LargeST-old/data/'
-    else:
-        path = 'D:/OneDrive - Florida State University/mycode/st/data/'
+    # if platform.system().lower() == 'linux':
+    #     path = '/blue/gtyson.fsu/dy23a.fsu/datasets/'
+    #     # path = '/home/dy23a.fsu/neu24/LargeST-old/data/'
+    # else:
+    #     path = 'D:/OneDrive - Florida State University/mycode/st/data/'
 
+    path=""
     return path
 
 def print_args(logger, args):
