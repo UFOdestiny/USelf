@@ -1,7 +1,13 @@
 .git
 .idea
 __pycache__
-data
+data/s*
+data/ca
+data/chicago
+data/gba
+data/gla
+data/manhattan
+data/nyc*
 result
 output_*
 src/uqgnn
